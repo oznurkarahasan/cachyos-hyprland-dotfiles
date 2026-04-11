@@ -1,0 +1,38 @@
+window {
+    background-color: rgba(26, 27, 38, 0.9);
+}
+
+button {
+    background-color: #ffffff;
+    border: 4px solid #7aa2f7;
+    border-radius: 25px;
+    margin: 20px;
+    color: #1a1b26;
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+    padding-top: 180px;
+    text-shadow: 0px 0px 10px rgba(122, 162, 247, 0.8);
+    background-repeat: no-repeat;
+    background-size: 18%, 70%;
+    background-position: center 15px, center 45%;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: rgba(122, 162, 247, 0.15);
+    border-color: #7dcfff;
+    box-shadow: 0 0 30px rgba(122, 162, 247, 0.6);
+    color: #7dcfff;
+}
+
+#lock, #logout, #suspend, #hibernate, #shutdown, #reboot {
+    background-blend-mode: normal;
+}
+
+#lock { background-image: url("/usr/share/wlogout/icons/lock.png"), url("/home/dasgaca/.config/wlogout/icons/lock.jpg"); }
+#logout { background-image: url("/usr/share/wlogout/icons/logout.png"), url("/home/dasgaca/.config/wlogout/icons/logout.jpg"); }
+#suspend { background-image: url("/usr/share/wlogout/icons/suspend.png"), url("/home/dasgaca/.config/wlogout/icons/suspend.jpg"); }
+#hibernate { background-image: url("/usr/share/wlogout/icons/hibernate.png"), url("/home/dasgaca/.config/wlogout/icons/hibernate2.jpg"); }
+#shutdown { background-image: url("/usr/share/wlogout/icons/shutdown.png"), url("/home/dasgaca/.config/wlogout/icons/shutdown.jpg"); }
+#reboot { background-image: url("/usr/share/wlogout/icons/reboot.png"), url("/home/dasgaca/.config/wlogout/icons/reboot.jpg"); }
