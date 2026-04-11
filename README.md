@@ -149,3 +149,16 @@ Replace `YOUR_USERNAME` with your actual username.
 | SUPER + H | Guide Widget |
 | SUPER + 1-9 | Switch Workspace |
 | SUPER + SHIFT + 1-9 | Move Window to Workspace |
+
+## Screenshots
+
+![Screenshot 1](docs/1.png)
+
+![Screenshot 2](docs/2.png)
+
+![Screenshot 3](docs/3.png)
+
+![Screenshot 4](docs/4.png)
+
+![Screenshot 5](docs/5.png)
+
