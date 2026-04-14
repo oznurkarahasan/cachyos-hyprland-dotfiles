@@ -137,6 +137,7 @@ Replace `YOUR_USERNAME` with your actual username.
 | SUPER + Q | Terminal (Kitty) |
 | SUPER + R | App Launcher (Wofi) |
 | SUPER + E | File Manager (Thunar) |
+| SUPER + N | Note (Mousepad) |
 | SUPER + L | Lock Screen |
 | SUPER + W | Wallpaper Picker |
 | SUPER + SHIFT + S | Screenshot |
@@ -150,6 +151,13 @@ Replace `YOUR_USERNAME` with your actual username.
 | SUPER + 1-9 | Switch Workspace |
 | SUPER + SHIFT + 1-9 | Move Window to Workspace |
 
+## Quick Commands
+
+```bash
+# hyprland.conf
+sudo nano ~/.config/hypr/hyprland.conf
+```
+
 ## Screenshots
 
 ![Screenshot 1](docs/1.png)
@@ -161,4 +169,3 @@ Replace `YOUR_USERNAME` with your actual username.
 ![Screenshot 4](docs/4.png)
 
 ![Screenshot 5](docs/5.png)
-
