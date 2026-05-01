@@ -1,0 +1,20 @@
+window {
+    background: rgba(30, 30, 46, 0.85);
+}
+
+#box {
+    padding: 4px 16px;
+}
+
+button {
+    background: none;
+    border: none;
+    border-radius: 10px;
+    padding: 4px;
+    margin: 0 6px;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: rgba(137, 180, 250, 0.15);
+}
