@@ -30,7 +30,8 @@ sudo pacman -S hyprland waybar wofi kitty hyprpaper hypridle hyprlock \
   pipewire wireplumber qt5-wayland qt6-wayland polkit-gnome \
   grim slurp wl-clipboard cliphist satty brightnessctl \
   rofi-wayland thunar gvfs gvfs-smb tumbler mousepad \
-  blueman pavucontrol playerctl samba avahi nss-mdns wsdd
+  blueman pavucontrol playerctl samba avahi nss-mdns wsdd \
+  nwg-dock-hyprland nwg-drawer
 ```
 
 ### 2. AUR Packages
@@ -48,6 +49,7 @@ cp -r dotfiles/dunst ~/.config/
 cp -r dotfiles/wofi ~/.config/
 cp -r dotfiles/wlogout ~/.config/
 cp -r dotfiles/rofi ~/.config/
+cp -r dotfiles/nwg-dock ~/.config/nwg-dock-hyprland/
 ```
 
 ### 4. Make Scripts Executable
@@ -91,6 +93,15 @@ mkdir -p ~/.config/hypr/scripts
 cp -r dotfiles/hypr/scripts/quickshell ~/.config/hypr/scripts/
 quickshell -p ~/.config/hypr/scripts/quickshell/TopBar.qml &
 quickshell -p ~/.config/hypr/scripts/quickshell/Main.qml &
+```
+
+### 9. Dock (nwg-dock-hyprland)
+
+Pinned apps are saved automatically via right-click → Pin in the dock.
+To add custom apps, edit:
+
+```bash
+nano ~/.config/nwg-dock-hyprland/pinned
 ```
 
 ## Important Notes
