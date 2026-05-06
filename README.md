@@ -169,3 +169,5 @@ sudo nano ~/.config/hypr/hyprland.conf
 ![Screenshot 4](docs/4.png)
 
 ![Screenshot 5](docs/5.png)
+
+![Screenshot 6](docs/6.png)
